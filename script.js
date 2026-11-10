@@ -116,7 +116,7 @@ contactForm.addEventListener("submit", event => {
   const name = document.getElementById("senderName").value.trim();
   const email = document.getElementById("senderEmail").value.trim();
   const message = document.getElementById("senderMessage").value.trim();
-  const recipient = "[your-email@example.com]";
+  const recipient = "mendezavalos58@gmail.com";
   const subject = encodeURIComponent(`Portfolio message from ${name}`);
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
   window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
